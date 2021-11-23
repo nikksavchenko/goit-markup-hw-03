@@ -40,6 +40,10 @@ img
    color: rgba(255, 255, 255, 0.6)
 }
 
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .header-div {
         width: 1200px;
         margin: 0 auto;
@@ -49,7 +53,6 @@ img
 
 .nav-header {
   display: flex;
-  width: 700px;
   align-items: center;
 }
 
@@ -86,10 +89,14 @@ img
     margin-right: 0px;
 }
 
-.li-header {
-    display: block;
+.li-header a {
+      display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+.li-header {
+
     margin-right: 50px;
 }
 
@@ -196,10 +203,13 @@ img
 
 .feature {
     display: flex;
+    margin: 0px;
+    padding: 0px;
 }
 
 .feature-li {
     width: 270px;
+    margin-left: 30px;
 }
 
 .section-benefits
@@ -240,6 +250,10 @@ img
     margin-bottom: 10px;
 }
 
+.div-team {
+    text-align: center;
+}
+
 .our-team {
     list-style-type: none;
     display: inline-block;
@@ -247,17 +261,16 @@ img
     text-align: center;
 }
 
-.div-team {
-    text-align: center;
-}
 
 .our-team-list {
-    margin-right: 30px;
+    display: inline-block;
+    margin-right: 22px;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.14);
     border-width: 0px 1px 1px;
     background-color: var(--bckgrclteamitem);
     width: 270px;
+
 }
 
 .our-team-list:last-child {
@@ -272,7 +285,7 @@ img
   }
 
 .section-titleh4 {
-   
+   margin-top: 30px;
      color: #212121;
     font-weight: 500;
     font-size: 14px;
@@ -280,6 +293,8 @@ img
 }
 
 .text-main {
+    margin-top: 10px;
+    margin-bottom: 30px;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -343,6 +358,14 @@ img
    border-radius: 4px;
 }
 
+.portfolio-title-vse {    
+    color: #ffff;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 6px 22px;
+}
+
 .portfolio-menu {
     margin: 0px;
     padding: 0px;
@@ -353,15 +376,6 @@ img
     margin-left: 8px;
     display: inline-block;
 }
-
-.portfolio-title-blue {
-    text-decoration: none;
-    color: #2196F3;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.06;
-    letter-spacing: 0.02em;
- }
 
  .studio-title-blue {
     text-decoration: none;
@@ -379,6 +393,7 @@ img
 }
 
 .portfolio-glav {
+    text-align: left;
     margin-left: 24px;
     font-weight: 700;
     font-size: 18px;
@@ -388,6 +403,7 @@ img
 }
 
 .portfolio-text {
+    text-align: left;
     margin-left: 24px;
     font-size: 16px;
     line-height: 1.87;
