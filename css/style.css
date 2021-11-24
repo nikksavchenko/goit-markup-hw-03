@@ -272,10 +272,27 @@ img
     width: 270px;
 
 }
+.team-box {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-left: 32px;
+   padding-right: 32px;
+}
 
-.our-team-list:last-child {
-    margin-right: 30px;
-  }
+.our-team-list {
+   flex-wrap: wrap;
+   margin-top: 30px;
+margin-left: 30px;
+}
+
+
+.section-ul-team {
+    margin-top: -30px;
+    margin-left: -30px;
+    display: flex;
+    align-items: center;
+
+}
 
   .container {
     width: 1200px;
@@ -437,4 +454,3 @@ img
 .main-portfolio {
     text-align: center
 }
-
