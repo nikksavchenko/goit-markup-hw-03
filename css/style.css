@@ -508,3 +508,11 @@ img
 .portfolio-menu li:first-child {
    margin-left: 0px;
 }
+
+.portfolio-unit li :nth-child(3n + 1) {
+    margin-left: 0px;
+  }
+  
+.portfolio-unit li :nth-last-child(-n + 3) {
+    margin-bottom: 0px;
+  }
